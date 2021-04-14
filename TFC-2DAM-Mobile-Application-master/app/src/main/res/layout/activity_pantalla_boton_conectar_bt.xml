@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pantalla_boton_conectar_bt">
+
+    <Button
+        android:id="@+id/boton_bluetooth"
+        android:layout_width="247dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/boton_redondo"
+        android:text="@string/boton_asistencia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advertencias_info" />
+
+    <TextView
+        android:id="@+id/advertencias_info"
+        android:layout_width="236dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="136dp"
+        android:text="@string/texto_explicacion"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/boton_atras"
+        android:layout_width="67dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/login_image_foreground" />
+
+    <ImageButton
+        android:id="@+id/boton_ir_a_info_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="225dp"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/boton_atras"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icons8_customer_64" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

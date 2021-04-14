@@ -1,0 +1,2 @@
+rootProject.name='TFCLOGIN2'
+include ':app'

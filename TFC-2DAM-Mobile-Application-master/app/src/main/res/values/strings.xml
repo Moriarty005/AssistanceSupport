@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">TFCLOGIN2</string>
+    <string name="delfault_username">Username</string>
+    <string name="default_passwd">Password</string>
+    <string name="assistance_follower">Assistance Support</string>
+    <string name="register">Register</string>
+    <string name="Login">Log in</string>
+    <string name="boton_asistencia">Registrar Asistencia</string>
+    <string name="texto_explicacion">Para registrar su asistencia pulse el boton que hay en pantalla cerca de un dispositivo de Assistance Support</string>
+    <string name="prueba_username">1</string>
+    <string name="prueba_passwd">1</string>
+    <string name="conectar_bluetooth">Por favor, encienda el Bluetooth de su dispositivo antes de intentar conectar con el dispositivo de AssistanceSupport</string>
+    <string name="conexion_bluetooth_imposible">No se puede conectar mediante Bluetooth ya que su dispositivo no es compatible con esa tecnología</string>
+    <string name="nombre">Nombre:</string>
+    <string name="dni">DNI:</string>
+    <string name="apellidos">Apellidos:</string>
+    <string name="prueba">prueba</string>
+    <string name="contraseña">Contraseña:</string>
+</resources>
